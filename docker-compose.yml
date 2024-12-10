@@ -1,0 +1,5 @@
+services:
+  todolist:
+    build : . # (1)
+    ports:
+      - 8081:8080 # (2)
